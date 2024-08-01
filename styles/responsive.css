@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@media screen and (max-width:576px) {
+
+    /* <!-- nav related style --> */
+    .nav-attribute {
+      
+        display: none;
+    }
+
+    .nav-container, .nav-image {
+        
+        margin: 0px 20px;
+    }
+
+    .nav-hambager {
+        visibility: visible;
+    }
+    
+
+    .banner {
+      
+        margin: 20px 20px;
+    }
+
+
+    .option-container {
+       
+        flex-direction: column;
+    }
+
+
+    .selection-bar {
+        
+        flex-direction: column;
+    }
+
+
+    .option-container {
+        width: 80%;
+    }
+
+
+    .banner-des {
+        
+        margin: 20px 20px;
+    }
+    input[type="text"] {
+        width: 280px;
+    }
+    select#select-type,select#when {
+        width: 300px;
+    }
+    button.btn-primary {
+        width: 300px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}

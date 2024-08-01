@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Inter", sans-serif;
+}
+
+.primary-color{
+    color:#FF5400
+}
+
+.btn-primary{
+    background-color:#FF5400;
+    color:#FFFFFF;
+    border:none;
+    padding:10px;
+    border-radius:5px;
+    font-size: .65rem;
+   width: 95px;
+}
+.magnifying-glass{
+    margin-right:5px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0px auto;
+    border:2px solid red
+  
+}
+/* <!-- nav related style --> */
+
+.nav-container,.nav-image{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  
+}
+
+.nav-image img{
+    margin-right: 20px;
+}
+
+.nav-attribute a{
+ text-decoration: none;
+ color:#424247;
+ 
+}
+
+.nav-attribute{
+    border:2px solid red;
+    display: flex;
+    justify-content:space-between;
+   gap:20px
+}
+
+.nav-hambager{
+visibility: hidden;
+
+}
+
+/*   <!-- banner related style --> */
+
+.banner{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80)0%, rgba(19, 19, 24, 0.00)100%),url("./Images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    color:#FFFFFF;
+    border-radius: 8px;
+
+}
+
+.banner-title{
+    font-size:2rem;
+    font-weight: 700;
+    text-align: center;
+    /* letter-spacing:3px; */
+}
+
+.banner-des{
+    font-size:10px;
+    font-weight:300;
+    max-width: 400px;
+    text-align: center;
+    margin:20px 0px
+
+}
+
+
+.option-container{
+    
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.486);
+padding: 10px;
+display:flex;
+/* grid-template-columns: repeat(3,1fr);
+gap:10px; */
+justify-content: space-between;
+align-items: center;
+max-width: 600px;
+gap:20px
+
+
+
+
+
+
+
+}
+.option-container input{
+    padding:10px;
+    width: 80px;
+    border-radius:5px;
+    font-size: .75rem;
+    border:none;
+    
+}
+
+.option-container select{
+    padding:10px ;
+  width: 100px;
+    border-radius:5px;
+    font-size: .75rem;
+    border:none;
+    /* border:2px solid green */
+}
+
+.selection-bar{
+    display: flex;
+    gap:20px
+}
+/* .option-container select option{
+    padding:10px;
+} */
