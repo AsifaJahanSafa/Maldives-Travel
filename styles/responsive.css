@@ -17,7 +17,7 @@
         visibility: visible;
         margin-right: 20px;
     }
-}
+
 
     .banner {
       
@@ -26,11 +26,7 @@
 
 
     
-    
-
-    
-
-    .banner-des {
+ .banner-des {
         
         margin: 20px 20px;
     }
@@ -59,14 +55,14 @@
 }
 
 
-.option-container .btn-primary {
+.option-container #banner-btn {
     width: 210px;
   
     margin-top: 10px;
 }
 
 
-
+/*    <!-- our popular tour --> */
 
 
 

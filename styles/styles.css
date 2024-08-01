@@ -19,6 +19,10 @@
     font-size: .65rem;
    
 }
+
+.main-btn{
+    max-width: 100px;
+}
 .magnifying-glass{
     margin-right:5px;
 }
@@ -48,7 +52,7 @@
 }
 
 .nav-attribute{
-    border:2px solid red;
+    /* border:2px solid red; */
     display: flex;
     justify-content:space-between;
    gap:20px
@@ -89,11 +93,14 @@ visibility: hidden;
     font-weight:300;
     max-width: 400px;
     text-align: center;
-    margin:20px 0px
+    margin:20px 0px;
+    
 
 }
 
-
+.banner-text{
+    margin:50px auto
+}
 .option-container{
     
     border-radius: 8px;
@@ -108,7 +115,7 @@ padding:10px;
 
    column-gap: 10px;
     
-border:1px solid aquamarine
+/* border:1px solid aquamarine */
 
 }
 
@@ -132,10 +139,64 @@ border:1px solid aquamarine
     border:none;
     border-radius: 8px;
  }
- .option-container .btn-primary{
+ .option-container #banner-btn{
     width: 100px;
     border:none;
     border-radius: 8px;
  }
  
 
+ /* <!-- our popular tour --> */
+
+ .our-popular-tour{
+    display: flex;
+    justify-content:space-between;
+    /* align-items: center; */
+    margin:50px auto;
+ }
+
+ .our-popular-tour>div{
+    width: 50%;
+ }
+
+ .our-popular-tour-img img{
+    width: 100%;
+ 
+    /* border:2px solid blue */
+ }
+
+ 
+ .our-popular-tour-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items:left; */
+    margin-right: 20px;
+    text-align: left;
+    /* border:2px solid blue */
+ }
+
+ .our-popular-tour-title{
+    font-size:2rem;
+    font-weight: 800;
+    margin:20px 0px
+ }
+
+ .our-popular-tour-des{
+    font-size: .75rem;
+    margin-bottom: 20px;
+    max-width: 450px;
+   letter-spacing: 1px;
+   line-height: 20px;
+
+    
+ }
+
+ .our-popular-tour-list li{
+    font-size: .75rem;
+    margin-bottom: 20px;
+    margin-left:20px;
+    max-width: 450px;
+    letter-spacing: 1px;
+    line-height: 20px;
+ }
