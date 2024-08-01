@@ -24,49 +24,81 @@
     }
 
 
-    .option-container {
-       
-        flex-direction: column;
-    }
+    
+    
 
-
-    .selection-bar {
-        
-        flex-direction: column;
-    }
-
-
-    .option-container {
-        width: 80%;
-    }
-
+    
 
     .banner-des {
         
         margin: 20px 20px;
     }
-    input[type="text"] {
-        width: 280px;
-    }
-    select#select-type,select#when {
-        width: 300px;
-    }
-    button.btn-primary {
-        width: 300px;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
+
+
+
+/* banner styling */
+.option-container {
+  
+    flex-direction: column;
+}
+.option-container input {
+    width:200px;
+    
+}
+.option-container #when {
+    width: 212px;
+    
+    margin-top: 10px;
+}
+.option-container #select-type {
+    width: 212px;
+    
+    margin-top: 10px;
+}
+
+
+.option-container .btn-primary {
+    width: 210px;
+  
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
