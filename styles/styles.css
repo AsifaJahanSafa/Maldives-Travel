@@ -101,6 +101,11 @@ visibility: hidden;
 .banner-text{
     margin:50px auto
 }
+
+.our-popular-tour {
+ 
+  flex-direction: column;
+}
 .option-container{
     
     border-radius: 8px;
@@ -353,4 +358,41 @@ padding:10px;
 .why-choose-us-container{
   margin-top: 50px 
   ;
+}
+.why-choose-us-card-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.why-choose-us-card-1{
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:20px;
+  border-radius: 8px;
+}
+
+.hotel{
+  border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding:20px;
+}
+
+.map{
+  border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding:20px;
+
+}
+
+.price{
+  border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding:20px;
+max-width:450px;
+margin-top: 20px;
+
 }

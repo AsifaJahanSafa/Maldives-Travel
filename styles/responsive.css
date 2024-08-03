@@ -154,9 +154,17 @@
     margin: 80px -60px;
 }
 
+.why-choose-us-card-1 {
+   
+    grid-template-columns: 1fr;
+   
+    margin: 0px 20px;
+}
 
-
-
+.price {
+    
+    margin: 20px;
+}
 
 
 
