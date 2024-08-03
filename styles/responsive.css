@@ -65,13 +65,19 @@
 /*    <!-- our popular tour --> */
 
 
-
-.our-popular-tour {
-    
+.option-container {
+    /* border-radius: 8px;
+    background: rgba(255, 255, 255, 0.486);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    /* margin-right: 20px; */
+    padding: 20px 10px;
+    max-width: 389px;
+    column-gap: 10px;
+    margin: 10px 20px;
     flex-direction: column;
-    margin: 20px 20px 
 }
-
 
 
 .our-popular-tour>div{
@@ -87,12 +93,66 @@
 
 
 
+.choose-your-destination-img-contaniner{
+   
+    grid-template-columns: 1fr;
+    margin:20px
+   
+ }
 
 
 
+ .img-1{
+    grid-column: 1/span 12;
+   
+    
+  }
+ .img-2{
+    grid-column: 1/span 12;
+  
+    
+  }
+ .img-3{
+    grid-column: 1/span 12;
+   
+    
+  }
+ .img-4{
+    grid-column: 1/span 12;
+   
+    
+  }
+ .img-5{
+    grid-column: 1/span 12;
+   
+    
+  }
+ .img-6{
+    grid-column: 1/span 12;
+   
+    
+  }
+ .img-7{
+    grid-column: 1/span 12;
+   
+    
+  }
 
-
-
+  .img.img-2 h3 {
+    margin: 50px -95px;
+}
+  
+  .img.img-3 h3 {
+    margin: 50px 20px;
+}
+  
+.img.img-5 h3 {
+    margin: 80px 127px;
+   
+}
+.img.img-7 h3 {
+    margin: 80px -60px;
+}
 
 
 
