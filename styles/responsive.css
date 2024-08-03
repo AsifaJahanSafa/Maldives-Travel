@@ -90,6 +90,11 @@
     margin:20px
   }
 
+  .our-popular-tour {
+    flex-direction: column;
+    margin: 20px;
+}
+
  .our-popular-tour-img {
     margin-top: 20px;
 }
