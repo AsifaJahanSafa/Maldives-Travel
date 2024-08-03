@@ -473,3 +473,28 @@ MARGIN:20px 420px 20px 20px
   margin-bottom: 20px;
 }
 
+/* perfect-place-contanier */
+
+.perfect-place-contanier{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.perfect-place-contanier>div{
+  width: 48%;
+}
+
+.perfect-place-img iframe{
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* .perfect-place-text{
+  margin-right: 20px;
+} */
+
+
+
+

@@ -198,12 +198,23 @@
 
 
 
+/* perfect-place-contanier */
 
+.perfect-place-contanier {
+    
+    flex-direction: column;
+    margin: 20px 20px
+}
 
-
-
-
-
+.perfect-place-contanier>div{
+    width: 100%;
+   
+  }
+  
+  .perfect-place-img iframe{
+    margin-top:20px
+  }
+  
 
 
 
