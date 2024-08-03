@@ -102,10 +102,7 @@ visibility: hidden;
     margin:50px auto
 }
 
-.our-popular-tour {
- 
-  flex-direction: column;
-}
+
 .option-container{
     
     border-radius: 8px;
@@ -396,3 +393,83 @@ max-width:450px;
 margin-top: 20px;
 
 }
+
+/* Deals-Discounts-container */
+
+.Deals-Discounts-container{
+  margin:50px auto
+}
+
+.Deals-Discounts-pakage-container{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pakage-1{
+  background-image: url("./Images/Group\ 39.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border-radius: 8px;
+margin-bottom: 20px;
+}
+.pakage{
+  max-width:500px;
+  border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+padding:20px 20px;
+margin:20px 20px 20px 420px;
+
+
+}
+
+.icon-contaer{
+  display: flex;
+  justify-content: space-between;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-title{
+  font-size: 10px;
+ 
+
+}
+
+.pakage-title{
+  margin:10px 0px;
+}
+.pakage-des{
+  margin-bottom:10px ;
+}
+
+
+.pakage-price{
+  color:#FF5400;
+  margin-bottom: 10px;
+}
+
+.packge-backgroun-2{
+  background-image: url("./Images/Group 40.png");
+ 
+
+}
+
+.pacage-change{
+
+MARGIN:20px 420px 20px 20px
+}
+
+.package-btn{
+  margin-bottom: 20px;
+}
+

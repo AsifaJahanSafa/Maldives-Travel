@@ -84,7 +84,10 @@
     width: 100%;
     
  }
-
+ .our-popular-tour {
+ 
+    flex-direction: column;
+  }
 
  .our-popular-tour-img {
     margin-top: 20px;
@@ -167,12 +170,26 @@
 }
 
 
+/* Deals-Discounts-container */
 
+.pakage{
+  
+  margin:20px;
+  
+  
+  }
 
+  .pacage-change{
 
+    MARGIN:20px 
+    }
+    
+    .choose-your-destination{
+        margin: 0px 20px
+      }
 
-
-
-
-
+      .pakage-1 {
+       
+        margin: 20px;
+    }
 }
