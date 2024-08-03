@@ -496,5 +496,87 @@ MARGIN:20px 420px 20px 20px
 } */
 
 
+/* Newletter */
+.Newletter{
+display: flex;
+justify-content:space-between;
+align-items: center;
+margin-top: 50px;
+}
+.Newletter>div{
+  width:46%;
 
 
+}
+.Newletter-container-text{
+  border:2px solid #FF5400;
+  display: flex;
+  flex-direction: column;
+  padding:10px;
+  border-radius:8px;
+}
+.Newletter-title{
+  font-size: 25px;
+}
+.form {
+  display:flex;
+  flex-direction: column;
+  
+}
+
+.New-des{
+ 
+  font-size: 10px;
+}
+hr{
+  margin:20px 0px
+}
+.form input{
+  margin-bottom: 20px;
+  padding:8px;
+  border-radius:5px;
+  border:none;
+  border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+
+
+
+}
+
+.new-btn{
+  font-size: 15px;
+}
+.Newletter-img img{
+  width: 100%;
+}
+.Newletter-img{
+  position: relative;
+}
+
+.discount {
+  background-color: #FF5400;
+  position: absolute;
+  top: 158px;
+  right: -2px;
+  transform: rotate(-45deg);
+  text-align: center;
+  color: #FFF;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+
+
+
+.discount-title-1{
+  font-size: 12px;
+  font-weight: 300;
+  
+}
+
+
+/* footer */
+
+.footer{
+  background-color:rgba(19, 19, 24, 0.05);;
+}

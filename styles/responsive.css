@@ -208,6 +208,7 @@
 
 .perfect-place-contanier>div{
     width: 100%;
+    border-radius: 8px;
    
   }
   
@@ -215,12 +216,31 @@
     margin-top:20px
   }
   
+  .Newletter {
+    
+    flex-direction: column;
+    margin:20px 20px
+}
+
+.Newletter>div{
+    width:100%;
+  
+  
+  }
+
+  .Newletter-container-text {
+ 
+    padding: 10px;
+    
+    max-width: 382px;
+    margin-bottom: 20px;
+}
 
 
-
-
-
-
+.discount {
+    
+    top: 126px;
+    right: 3px;}
 
 
 
